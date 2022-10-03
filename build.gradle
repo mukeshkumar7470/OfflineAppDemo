@@ -3,3 +3,13 @@ plugins {
     id 'com.android.application' version '7.3.0' apply false
     id 'com.android.library' version '7.3.0' apply false
 }
+
+ext {
+    lifecycleVersion = '2.5.1'
+    roomVersion = '2.4.3'
+    retrofitVersion = '2.9.0'
+    okhttpInterceptorVersion = '5.0.0-alpha.2'
+    rxAdapterVersion = '2.9.0'
+    glideVersion = '4.12.0'
+    rxVersion = '3.0.0'
+}
