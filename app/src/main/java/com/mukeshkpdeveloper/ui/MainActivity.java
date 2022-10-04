@@ -9,14 +9,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.SimpleItemAnimator;
 
-import com.mukeshkpdeveloper.CoinApp;
 import com.mukeshkpdeveloper.offlineappdemo.R;
 import com.mukeshkpdeveloper.room.CoinViewModel;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
     private CoinViewModel coinViewModel;
 
     private CoinAdapter coinAdapter;

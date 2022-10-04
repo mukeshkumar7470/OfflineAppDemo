@@ -4,7 +4,9 @@ import android.app.Application;
 import android.util.Log;
 
 import androidx.lifecycle.LiveData;
+
 import com.mukeshkpdeveloper.retrofit.RetrofitService;
+
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -42,7 +44,6 @@ public class CoinRepository {
                                                         DB.databaseWriteExecutor.submit(() -> {
                                                             coinDao.deleteAll();
                                                             coinDao.insertAll(cryptoList.getCoins());
-
                                                             Log.d(TAG, "Data inserted in \"coins\" table");
                                                         }),
                                                 throwable ->
